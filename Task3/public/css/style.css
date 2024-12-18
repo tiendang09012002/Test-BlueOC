@@ -1,0 +1,120 @@
+#main {
+  display: flex;
+}
+.post-form {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+
+}
+
+.post-form .form-group label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.post-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.post-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.post-form .btn-primary {
+  background-color: #54cc1c;
+  border-color: #54cc1c;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.post-form .btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 91, 187, 0.3);
+}
+
+.col-lg-7,
+.col-md-6,
+.col-sm-12 {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.list-group-item p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .col-lg-7,
+  .col-md-6,
+  .col-sm-12 {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .list-group-item {
+    padding: 15px;
+  }
+
+  .list-group-item h5 {
+    font-size: 1.4rem;
+  }
+
+  .list-group-item p {
+    font-size: 1rem;
+  }
+}
